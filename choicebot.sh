@@ -142,9 +142,9 @@ IFS=$'\n'
 for hashtag in $(cat hashtags.txt);do
 
 printf "\e[1;77m[*] Creating media list for hashtag %s\e[0m\n" $hashtag
-{( trap '' SIGINT && curl -s https://www.instagram.com/explore/tags/$hashtag/?__a=1 | grep  -o '"node":{"comments_disabled":false,"id":"..................[0-9]'  | cut -d ":" -f4 | tr -d '\"' | head -n 10 >> hashtags_id.txt )} & wait $!;
+{( trap '' SIGINT && curl -s -L https://www.instagram.com/explore/tags/$hashtag/?__a=1 | grep  -o '"node":{"comments_disabled":false,"id":"..................[0-9]'  | cut -d ":" -f4 | tr -d '\"' | head -n 10 >> hashtags_id.txt )} & wait $!;
 printf "\e[1;77m[*] Creating follower list for hashtag %s\e[0m\n" $hashtag
-{( trap '' SIGINT && curl -s https://www.instagram.com/explore/tags/hacking/?__a=1 | grep  -o '"owner":{"id":".........[0-9]"'  | cut -d ":" -f3 | tr -d '\"' | head -n 10 >> owner_id.txt )} & wait $!;
+{( trap '' SIGINT && curl -L -s https://www.instagram.com/explore/tags/hacking/?__a=1 | grep  -o '"owner":{"id":".........[0-9]"'  | cut -d ":" -f3 | tr -d '\"' | head -n 10 >> owner_id.txt )} & wait $!;
 
 done
 
