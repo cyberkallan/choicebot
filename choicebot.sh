@@ -1,6 +1,6 @@
 #!/bin/bash
 # ChoiceBot v1.1
-# Coded by: Cyber kallan (arjun arz)
+# Coded by: Cyber kallan (mallu youtuber)
 # Github: https://github.com/cyberkallan/choicebot
 # Instagram: arz_beats
 
