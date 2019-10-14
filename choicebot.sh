@@ -1,8 +1,8 @@
 #!/bin/bash
 # ChoiceBot v1.1
-# Coded by: @thelinuxchoice (Don't change!)
-# Github: www.github.com/thelinuxchoice/choicebot
-# Instagram: @thelinuxchoice
+# Coded by: Cyber kallan (arjun arz)
+# Github: https://github.com/cyberkallan/choicebot
+# Instagram: arz_beats
 
 trap 'printf "\n";stop;exit 1' 2
 
@@ -47,9 +47,9 @@ printf "\e[1;92m   ____ _           _          ____        _    \e[0m\n"
 printf "\e[1;92m  / ___| |__   ___ (_) ___ ___| __ )  ___ | |_  \e[0m\n"
 printf "\e[1;92m | |   | '_ \ / _ \| |/ __/ _ \  _ \ / _ \| __| \e[0m\n"
 printf "\e[1;92m | |___| | | | (_) | | (_|  __/ |_) | (_) | |_  \e[0m\n"
-printf "\e[1;92m  \____|_| |_|\___/|_|\___\___|____/ \___/ \__| \e[0mv1.1\n"
+printf "\e[1;92m  \____|_| |_|\___/|_|\___\___|____/ \___/ \__|c͔ͣͦ́́͂ͅy͉̝͖̻̯ͮ̒̂ͮ͋ͫͨb͎̣̫͈̥̗͒͌̃͑̔̾ͅe̮̟͈̣̖̰̩̹͈̾ͨ̑͑r̼̯̤̈ͭ̃ͨ̆ k̲̱̠̞̖ͧ̔͊̇̽̿̑ͯͅa̘̫͈̭͌͛͌̇̇̍l͕͖͉̭̰ͬ̍ͤ͆̊ͨl͕͖͉̭̰ͬ̍ͤ͆̊ͨa̘̫͈̭͌͛͌̇̇̍n͉̠̙͉̗̺̋̋̔ͧ̊ \e[0mv1.1\n"
 printf "\n"
-printf "\e[1;77m\e[45m        Instagram bot by @thelinuxchoice       \e[0m\n"
+printf "\e[1;77m\e[45m        Instagram bot by Cyber Kallan       \e[0m\n"
 printf "\n"                                    
 
 }
