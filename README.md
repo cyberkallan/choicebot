@@ -1,6 +1,6 @@
 # Choicebot v1.2
 ## Author: github.com/cyberkallan/choicebot
-## IG: Instagram.com/arz_beats
+## IG: Instagram.com/imarjunarz
 ### Don't copy this code without give me the credits, bitch! 
 Choicebot is a bot written in Shell Script (the first one) to perform 'likes', 'comments' and 'follows' based on hastags.
 
